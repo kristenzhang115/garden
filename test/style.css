@@ -1,0 +1,15 @@
+/* 基础重置，确保画布全屏无白边 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden; /* 防止出现滚动条 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
